@@ -1,3 +1,7 @@
 $(document).ready( function() {
-  // your code here
+  $('.c').click(function() {
+    this
+     let audio = document.getElementById("cAudio");
+     audio.play();
+  });
 });
