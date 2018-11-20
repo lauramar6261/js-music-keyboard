@@ -1,7 +1,7 @@
 $(document).ready( function() {
   $('.c').click(function() {
-    this
-     let audio = document.getElementById("cAudio");
+    let letter = `${$(this).text()}`
+     let audio = document.getElementById(letter + "Audio");
      audio.play();
   });
 });
